@@ -1,0 +1,327 @@
+/* ====== Global ====== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: robotoL;
+  overflow-x: hidden;
+}
+
+/* ====== font ====== */
+@font-face {
+  font-family: robotoR;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: robotoB;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: robotoL;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+/* ====== font ====== */
+/* ====== color variable ====== */
+/* ====== color variable ====== */
+/* ==== sizing variable Global ==== */
+/* ==== sizing variable Global ==== */
+/* ====== Global ====== */
+/* ====== Hero section ====== */
+.heroSection {
+  /* ====== Header ====== */
+  /* ====== Header ====== */
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 100vw;
+  overflow-x: hidden;
+  margin-bottom: 6em;
+}
+.heroSection .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.heroSection .header .logo {
+  display: flex;
+  width: 300px;
+  padding: 0.5em;
+}
+.heroSection .header .logo img {
+  padding: 8px;
+  width: 50px;
+}
+.heroSection .header .logo p span {
+  line-height: 1.7em;
+  font-family: robotoB;
+  font-size: 1rem;
+}
+.heroSection .header .logo p {
+  font-size: 0.8em;
+}
+.heroSection .imgContainerHero {
+  position: relative;
+  width: 60%;
+  height: 75vh;
+  background-image: url(../img/ilustracion1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.heroSection .imgContainerHero img {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  height: 400px;
+}
+.heroSection .textContainerHero {
+  padding: 2em 0 0 3em;
+  width: 40%;
+  line-height: 3em;
+}
+.heroSection .textContainerHero .heroSectionTitle {
+  font-size: 2em;
+  font-family: robotoB;
+}
+.heroSection .textContainerHero .heroSectionText {
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-top: 2em;
+}
+.heroSection .textContainerHero .scrollToSeeMore {
+  color: #ff3571;
+  font-family: robotoR;
+  font-size: 0.8em;
+}
+.heroSection .textContainerHero .rocket {
+  font-size: 2em;
+}
+
+/* ====== Hero section ====== */
+/* ====== Gallery ====== */
+.gallery {
+  width: 100vw;
+}
+.gallery img {
+  width: 100%;
+  padding-bottom: 3em;
+}
+
+/* ====== Gallery ====== */
+/* === Every idea start with a need  === */
+.everyIdeaStartsWithANeed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 70%;
+  margin: auto;
+  margin-bottom: 3em;
+}
+.everyIdeaStartsWithANeed article:first-of-type {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin-bottom: 5em;
+}
+.everyIdeaStartsWithANeed article:first-of-type h1 {
+  font-family: robotoB;
+  font-size: 2em;
+  max-width: 16ch;
+  min-width: 14ch;
+  padding-right: 2em;
+}
+.everyIdeaStartsWithANeed article:first-of-type p {
+  font-size: 0.9em;
+  line-height: 1.5em;
+  width: 60%;
+  margin-right: auto;
+}
+.everyIdeaStartsWithANeed h1 {
+  width: 100%;
+  font-size: 2em;
+  font-family: robotoB;
+}
+
+/* === Every idea start with a need  === */
+/* ===== Info Cards ====== */
+.infoCards {
+  margin: auto;
+  max-width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3em;
+}
+.infoCards .infoCard {
+  padding: 1em;
+  width: 50%;
+  transition-timing-function: ease-in-out;
+}
+.infoCards .infoCard .dRight {
+  margin-right: auto;
+}
+.infoCards .infoCard .IconAndTitle {
+  display: flex;
+  column-gap: 1em;
+}
+.infoCards .infoCard .IconAndTitle .cardIcon {
+  width: 18px;
+}
+.infoCards .infoCard .cardTitle {
+  font-family: robotoB;
+  font-size: 0.9em;
+  line-height: 2em;
+}
+.infoCards .infoCard .cardText {
+  font-size: 0.9em;
+  line-height: 2em;
+  max-width: 40ch;
+  padding-left: 2em;
+}
+
+/* ===== Info Cards ====== */
+/* ===== Are You Ready ====== */
+.areYourReady {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 75vw;
+  margin: auto;
+  row-gap: 2em;
+}
+.areYourReady .Intro {
+  margin: 3em 0;
+}
+.areYourReady .Intro h1 {
+  font-size: 2em;
+  font-family: robotoB;
+  text-align: center;
+  line-height: 2em;
+  width: 100%;
+}
+.areYourReady .Intro p {
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  max-width: 70%;
+}
+.areYourReady .imgTextContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  width: 100%;
+}
+.areYourReady .imgTextContainer .imgContainer {
+  width: 50%;
+}
+.areYourReady .imgTextContainer .imgContainer img {
+  width: 100%;
+}
+.areYourReady .imgTextContainer .textContainer {
+  width: 50%;
+  line-height: 2em;
+}
+.areYourReady .imgTextContainer .textContainer h1 {
+  font-size: 2.6em;
+  font-family: robotoB;
+  color: #dddddd;
+  margin-bottom: 1.5em;
+}
+.areYourReady .imgTextContainer .textContainer h3 {
+  font-size: 1em;
+  font-family: robotoB;
+}
+.areYourReady .imgTextContainer .textContainer h3 span {
+  font-size: 1.8em;
+}
+.areYourReady .imgTextContainer .textContainer p {
+  font-size: 0.9em;
+  line-height: 2em;
+}
+.areYourReady .reverse {
+  flex-direction: row-reverse;
+}
+
+/* ===== Are You Ready ====== */
+/* ===== Footer ====== */
+.footer h1 {
+  text-align: center;
+  font-family: robotoB;
+  line-height: 2em;
+  margin-bottom: 1em;
+}
+.footer p {
+  text-align: center;
+  line-height: 2em;
+  margin-bottom: 1em;
+}
+.footer form {
+  max-width: 75vw;
+  margin: auto;
+}
+.footer form input {
+  margin: 2em auto;
+  display: block;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  padding: 1em 6em;
+  background-color: #fff;
+  box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.318);
+}
+.footer form .submit {
+  text-align: center;
+  display: block;
+  padding: 0.4em 2.5em;
+  margin: 1em auto;
+  background-color: #ff3571;
+  border: none;
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* ===== Footer ====== */
+/* ===== Media queries ====== */
+@media only screen and (max-width: 701px) {
+  * {
+    transition-duration: 400ms;
+    transition-timing-function: ease-out;
+  }
+  .heroSection {
+    margin-bottom: 2em;
+  }
+  .heroSection .textContainerHero {
+    width: 50%;
+  }
+  .everyIdeaStartsWithANeed article:first-of-type {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-bottom: 5em;
+  }
+  .everyIdeaStartsWithANeed article:first-of-type p {
+    margin-top: 2em;
+    width: 100%;
+  }
+  .infoCards .infoCard {
+    width: 100%;
+  }
+  .areYourReady .imgTextContainer {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+  }
+  .areYourReady .imgTextContainer .imgContainer {
+    width: 100%;
+  }
+  .areYourReady .imgTextContainer .textContainer {
+    width: 100%;
+  }
+}
+/* ===== Media queries ====== */
+
+/*# sourceMappingURL=style.css.map */
